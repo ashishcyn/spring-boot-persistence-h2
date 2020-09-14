@@ -50,7 +50,7 @@ spring.datasource.password=
 **Step3:   
 Seeding the DB**  
 We can prepare **data.sql** and run it against the configured H2 database during application startup.   
-Please the data.sql and place it under **resources** folder   
+Create the data.sql and place it under **resources** folder   
   
 ```sql
 DROP TABLE IF EXISTS employee;
