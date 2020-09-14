@@ -1,7 +1,8 @@
 # spring-boot-persistence-h2
----
 
-**Step1: Generate a spring boot project**    
+
+**Step1:   
+Generate a spring boot project**    
 [https://start.spring.io/](https://start.spring.io/) and include the dependencies spring data jpa and h2 along with web
 
 ```xml
@@ -22,7 +23,8 @@
     </dependency>
 ```
 
-**Step2:  Accessing h2 console**  
+**Step2:  
+Accessing h2 console**  
 By default, the H2 console is not enabled in Spring.
 To enable it, we need to add the following property to *application.properties*:
 
@@ -45,7 +47,8 @@ spring.datasource.driverClassName=org.h2.Driver
 spring.datasource.username=sa
 spring.datasource.password=
 ```
-**Step3: Seeding the DB**  
+**Step3:   
+Seeding the DB**  
 We can prepare **data.sql** and run it against the configured H2 database during application startup.   
 Please the data.sql and place it under **resources** folder   
   
@@ -71,7 +74,7 @@ INSERT INTO employee (first_name, last_name, salary) VALUES
 
 [//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
 
-[dill]: <https://github.com/joemccann/dillinger>
-[git-repo-url]: <https://github.com/joemccann/dillinger.git>
+[readme editor]: <https://dillinger.io/>
+[Ref1]: <https://www.baeldung.com/spring-boot-h2-database>
  
 
